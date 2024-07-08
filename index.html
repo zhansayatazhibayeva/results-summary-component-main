@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel = "stylesheet" href = "styles.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="container-left">
+      <h3>Your Result</h3>
+      <div class = "result-score">
+        <span class="big-score">76</span>
+        <span class="small-score">of 100</span>
+      </div>
+      <div class = "left-text">
+        <h3>Great</h3>
+        <p>You scored higher than 65% of the people who have taken these
+            tests.</p>
+      </div>
+    </div>
+    <div class="container-right">
+      <h3>Summary</h3>
+      <div class="summary">
+        <div class = "summary-reaction score">
+          <div class = "summary-each">
+            <img class = "icon-reaction" src = "assets/images/icon-reaction.svg">
+            <h6>Reaction</h6>
+          </div>
+          <div class = "summary-score">
+            <span class="black">80 / <span class="grey">100</span></span>
+          </div>
+        </div>
+        <div class = "summary-memory score">
+          <div class = "summary-each">
+            <img class = "icon-reaction" src = "assets/images/icon-memory.svg">
+            <h6>Memory</h6>
+          </div>
+          <div class="summary-score">
+            <span class="black">92 / <span class="grey">100</span></span>
+          </div>
+          
+        </div>
+        <div class = "summary-verbal score">
+          <div class = "summary-each">
+            <img class = "icon-reaction" src = "assets/images/icon-verbal.svg">
+            <h6>Verbal</h6>
+          </div>
+          <div class="summary-score">
+            <span class="black">61 / <span class="grey">100</span></span>
+          </div>
+        </div>
+        <div class = "summary-visual score">
+          <div class = "summary-each">
+            <img class = "icon-reaction" src = "assets/images/icon-visual.svg">
+            <h6>Visual</h6>
+          </div>
+          <div class="summary-score">
+            <span class="black">72 / <span class="grey">100</span></span>
+          </div>
+        </div>
+      </div>
+      <button class = "continue-btn" id ="continue-btn">Continue</button>
+    </div>
+  </div>
+ 
+</body>
+</html>
